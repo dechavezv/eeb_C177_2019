@@ -1,11 +1,52 @@
 ---
 layout: post
-title: "How To Get Readonly Mode In Django"
+title: " Week 0- Settup a Hoffman account and "
 description: "Guide to setup readonly mode for some users in django admin"
 category: articles
 tags: [python, django, django-admin]
 comments: false
 ---
+**Information here is based on** [this site](https://www.hoffman2.idre.ucla.edu)
+
+To avoid problems related to compatiblity of of miscellaneous software to specific operation systems (MacOS, Windows,etc.) We will use Hoffman2. This is a cluster of ~1,200+ nodes and 13,340 cores located at UCLA campus that can be acess remotly.
+
+## Apply for an account
+First you need to appy for an account on a cluster. Click [here](https://shb.ais.ucla.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?execution=e1s3)  
+After you click on the previous link. You will be asked for yor UCLA Logon ID and password. Then you will be redirected site where you have to provide a username, pasward and some other information.  
+For the option *Select a sponsor* chose IDREHC, for **Department** chose "Ecology and Evolutionary Biology" and for **Preferred Shell** chose Bash.  
+Once you filled click on submit. Your account should be aprove by the following day
+
+## Loggin to Hoffmman2 and setting up your password
+First you will need to retrieve your initial password by suppling the answer for your secret question. If you ever forget your password click [here](https://gim.ats.ucla.edu/gridsphere/gridsphere/guest/14/r/showPage?rp_up=KNY&rp_KNY_page=forgotclusterpassword) to submit a request to reset your password. If you gorgot your cluster ID account click [here](https://gim.ats.ucla.edu/gridsphere/gridsphere/guest/14/r/showPage?rp_pV6_page=forgotclusterusername&rp_up=pV6).  
+
+To acess hoffman we will use a Secure Shell (SHH) conection protocol that allows security acess from your computer to the host served located at UCLA. Enough talking! Lets login into your hoffman account.  
+On the terminal type:  
+`ssh login-id@hoffman2.idre.ucla.edu`
+**IMPORTANT**change login-id to your cluster ID
+
+After provind your password you should see a screen that looks like this:
+
+![]({{ site.url }}/images/hoffman_login)  
+
+Congratulations! You have a functioning Hoffman cluster!
+
+Now complete the following stpeps to check that eveyrhing is working.
+
+1) Look at the list of softwares available:
+`module av`
+To load a package or sowtwar like R, you have to type:
+`module load R`
+
+2) Find space in current directory
+`df -h`
+
+
+
+  
+
+
+
+Download the EEB177 virtualbox image from [this link](https://ucla.box.com/s/p3y2xqqzujyciplvm23h6mkpup4zwjaz)<sup>0</sup>. *Note: this is a large file (~2gb), so prepare to be patient!*  For now, place this file on your Desktop or at another easily-accessible location.
 
 Last week, I came across an interesting problem at work. The problem was to get read only users in a Django based application.
 
