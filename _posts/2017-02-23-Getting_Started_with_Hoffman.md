@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Week 0- Settup a Hoffman account and "
+title: " Week 0- Settup a Hoffman account "
 description: "Guide to setup readonly mode for some users in django admin"
 category: articles
 tags: [python, django, django-admin]
