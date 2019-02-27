@@ -1,28 +1,41 @@
 ---
 layout: post
-title: "How To Get Readonly Mode In Django"
-description: "Guide to setup readonly mode for some users in django admin"
+title: "How To sett up Hoffman account"
+description: "Guide to setup you Hoffman account and "
 category: articles
 tags: [python, django, django-admin]
 comments: false
 ---
 
-Last week, I came across an interesting problem at work. The problem was to get read only users in a Django based application.
+This week, We will set the working enviroment fo the entire couse of the class. For this we will is Hoffman2 Cluster that consists of ~1,200 nodes and 13,340 cores, with an aggregate of over 50TB of memory. You can find more information about Hoffman2 [here](https://idre.ucla.edu/hoffman2)<sup>0</sup>.  
 
-But doing so was not very simple because there is no read only mode for users
-in Django. In order to solve this, I first started reading answers on stack
-overflow. Some of those links did pointed me to a correct route. Here, I will
-document the whole process so that it could help others and serve as a reminder
-for me as well.
+## Apply for an account 
+You have to apply for an account on a cluster hosted by IDRE. To get an account go to the following [link](https://www.hoffman2.idre.ucla.edu/getting-started/#New_User_Registration_lt-_Click_here_to_apply_for_an_account_on_a_cluster_hosted_by_IDRE)<sup>0</sup>. Click "New User Registration". You should be redirected to the UCLA Authentication. Then, a window should appear asking for some information such as Username and Pasword. Please for **Sponsor** select "IDRE HPC" and for **Preferred Shell** chose "Bash".  
 
-First of all, the whole system of authentication in any system originates from
-permissions. The basis permissions are. Read, Write, Execute. in Unix (chmod is
-used to set permissions).
+## Login for the first time into your Account
+from the terminal type  
+`ssh login-id@hoffman2.idre.ucla.edu`
 
+If everything worked fine you shouls see something like this:
+![]({{ site.url }}/images/Login_Daniel_hoffman.png)
 
-Django has a cool way of adding the permissions in the meta class. Let's say we
-have a model class named Cars.
+If you're here, congrats! You have a functioning hoffman account.
 
+## Basic commands in Hoffman2
+Now that you have loggin in into an account lets try some basic commands. 
+Change your password by command  
+`passwd`
+
+Configure your shell (command-line interpreter/scripts):  
+`echo $SHELL`
+
+Go to yout Home directory  
+`cd $HOME`
+The name of your home directory is like `/u/home/u/username` where u is the first character of your username. For example, if your user name is “bruin”, your home directory is `/u/home/b/bruin`.
+
+To check disk usage type `df -h`
+
+The following is a exmaple of a python script. DO NOT delete yet  
 {% highlight python %}
 class Cars(model.Model):
   name = models.Charfield()
