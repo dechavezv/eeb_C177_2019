@@ -26,7 +26,7 @@ On the terminal type:
 
 After provind your password you should see a screen that looks like this:
 
-![]({{ site.url }}/images/hoffman_login)  
+![]({{ site.url }}/images/hoffman_login.png)  
 
 Congratulations! You have a functioning Hoffman cluster!
 
