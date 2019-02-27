@@ -1,0 +1,154 @@
+EEB C177/C234 
+Practical Computing for Evolutionary Biologists and Ecologists
+MW 8-9:15
+Physics and Astronomy Building Room 2748
+Computer Lab T or R 1-2:50; WGYoung 4067
+
+Units: 4
+Prerequisite: Life Sciences 1 or 7B. 
+Letter Grading
+
+Instructor
+Emily Curd Guswa
+eecurd@g.ucla.edu
+Office Hours: MW 9:30-10:30 Music School Cafe
+----- class github.... -------
+
+Teaching Assistant
+Daniel Chavez 
+dechavezv@ucla.edu
+Office Hours: 
+Course schedule is tentative and will be updated to reflect class interests.
+
+Text 1: Introduction to Scientific Computing for Biologists
+Author: Stefano Allesina; downloadable here
+https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
+
+Text 2: Python for Biologists and Advanced Python for Biologists, 1st Edition
+Author: Martin Jones; You can pick up the book in pdf form through the following link. Use
+this coupon code to get these books at a discount: a834f87f
+
+Course Description: It is becoming easier to generate large volumes of biological data, however many biologists lack the skillsets to process and analyze this data.  In this class students will be introduction to fundamental skills needed for manipulation, analysis, and visualization of large data sets. Students will learn the basics of programming and scripting in Bash (Unix shell), Python, R. This will include text file manipulation via regular expressions and other related topics. Students will also learn common languages for document preparation (LeTeX and Markdown). Finally, students will learn how to use git and GitHub. You will also learn specialized libraries for programming in ecology and evolutionary biology.
+
+Course Objectives:
+Students taking this course will gain experience in:
+1. Working with git and GitHub
+2. Writing documents using LaTeX and Markdown
+3. Working from the Unix Shell
+4. Programming in Bash, Python, and R
+	A.	Using regular expressions in different programming languages
+	B.	Textfile manipulation
+	C. 	Data analysis
+	D.	Calling and running other software
+	E.	Generate Figures and Tables
+5. High performance computing by accessing and running programs on UCLA's Hoffman2 Cluster
+6. Working with Databases
+
+Grades
+1. In class participation 20%
+2. Homework 10%
+3. Lab assignments / participation 20%
+4. Final Project 50%
+
+Course grades are determined by in class participation, homework assignments, lab assignments and participation, and the final project. The in class participation grade includes group exercises and class challenges.
+
+This course includes a broad range of topics and tools. Practice is the best way to learn how to program and homework assignments will prepare students for in class activities. 
+
+Lab assignments are designed to result in a practical product like a CV or a GitHub page. 
+
+The final project for this course will require students to work in teams (undergradutes) or individually (graduate students) to produce software that manipulates and analyzes data.  This software has to have a practical application for a current research project. Students that do not currently have a research project will be paired with a researcher that has a computational need that is appropriate for the scope of the course and student group size.   
+
+Laptops are required for classtime! If you do not have a laptop you can rent one from the Arts library or the Geology library starting at 8am.    http://www.library.ucla.edu/destination/clicc-laptop-ipad-lending-arts-library http://www.library.ucla.edu/destination/clicc-laptop-lending-selgeology.  
+Let me know if you need to borrow a laptop, and in class activities will take into account the time for checkout / travel between library and class . 
+
+All in class activities must be turned in during class. Students with excused absences will be given an alternate exercise.  The lowest assignment score will be dropped from the participation grade.
+
+Homework assignments will be submitted electronically before class. The submission cutoff is 7:45 am the day of class. Late submissions will be accepted but penalized 10% each day late (submitting 7:46 the day of class counts as 1 day late). 
+
+----- Other stuff -------
+	plagiarism
+	student resources
+	what constitutes an excused absence
+
+
+
+------ Schedule of Class Readings etc -----------
+
+Week 1
+	M 4/1	Getting Set Up, Intro to UNIX
+	W 4/3	Intro to UNIX, The Shell
+	Discussion	CV in Markdown
+Week 2
+	M 4/8	Git, Version Control, GitHub
+	W 4/10	Bash, Text Editors, Regular Expressions
+	Discussion	Setting up Project GitHub, Revisit Markdown
+Week 3
+	M 4/15	Bash
+	W 4/17	Python
+	Discussion	Outline Project Goals, Basic Project Flowchart
+Week 4
+	M 4/22	Python
+	W 4/24	R
+	Discussion	Detailed Project Flowchart
+Week 5
+	M 4/29	R
+	W 5/1	LaTex BibTex
+	Discussion	Draft Readme
+Week 6
+	M 5/6	LaTex BibTex
+	W 5/8	Bash
+	Discussion	Draft Scripts
+Week 7
+	M 5/13	Python
+	W 5/15	Python
+	Discussion	Draft Vignette
+Week 8
+	M 5/20	R
+	W 5/22	R
+	Discussion	TBD
+Week 9
+	M 5/27  Memorial Day Weekend
+	W 5/29	SQL, SQlite, databases
+	Discussion	TBD
+	Week 10
+	M 6/3	SQL, SQlite, databases
+	W 6/5	Open Topics
+	Discussion	TBD
+Final June 14, 2019 8 - 11 am
+	Project Presentations
+	
+	
+------ Description of final project -----------
+
+Software will have the following:
+	-	GitHub repository
+	-	Readme (in Markdown) with the following
+		*	Snappy name, names of developers, way to contact developers, CVs optional
+		*	motivation for the software "Introduction"
+			-	Cite minimum 3 studies
+		*	description of how software works
+		*	Instructions for how to use software
+		*	References
+	-	scripts 
+		*	written in Bash, Python, and or R
+	-	vignette, example data, example output 
+		* data is comprised of minimal dataset to run through software in 3 min or fewer
+		*	Output will include 
+			-	desired data manipulation
+			-	run log
+			-	error log
+
+Milestones:
+*	Consult with Researcher or develop idea for research project
+*	Outline purpose for software
+*	Flowchart software function -> basic plan, who will complete which aspects of the plan (every team member will have to contibute to scripting, the GitHub, the Readme, and vignette)
+*	Fill in flowchart with 
+	-	"How to" programs and scripts
+	-	timeline 
+	-	distribution of work/tasks
+
+*	Draft of Readme
+*	Draft of scripts
+*	Draft of vignette
+*	Final drafts of Readme, scripts, and vignette
+*	Presentation of Final Product
