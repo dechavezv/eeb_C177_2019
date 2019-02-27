@@ -3,8 +3,6 @@ layout: post
 title: "How To sett up Hoffman account"
 description: "Guide to setup you Hoffman account and "
 category: articles
-tags: [python, django, django-admin]
-comments: false
 ---
 
 This week, We will set the working enviroment fo the entire couse of the class. For this we will is Hoffman2 Cluster that consists of ~1,200 nodes and 13,340 cores, with an aggregate of over 50TB of memory. You can find more information about Hoffman2 [here](https://idre.ucla.edu/hoffman2)<sup>0</sup>.  
