@@ -21,7 +21,7 @@ Once you have sucessfully login, make sure you are in the home directory.
 To get your current working directory type `pwd` from the terminal. You slould get
 something like this `/u/home/d/<YourName>`.  
 
-When we use Git for the first time, we need to provide a user name and email address.
+When using Git for the first time, we need to provide a user name and email address.
 This information will be associated with your Git activity. Therefore, any
 changes pushed to [GitHub](https://github.com/) will include your user name and email address.
 
@@ -36,3 +36,18 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 {: .language-bash}
 
 To check that the right everything worked fine you can type from the terminal `git config --list`.   
+
+Let's start by sharing the changes we've made to our current project with the
+world.  Log in to GitHub, then click on the icon in the top right corner to
+create a new repository called `planets`:
+
+![]({{ site.url }}/images/github-create-repo-01.png)
+
+Name your repository "planets" and then click "Create Repository":
+
+![]({{ site.url }}/images/github-create-repo-02.png)
+
+As soon as the repository is created, GitHub displays a page with a URL and some
+information on how to configure your local repository:
+
+!![]({{ site.url }}/images/github-create-repo-03.png)
