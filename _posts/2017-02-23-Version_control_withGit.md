@@ -10,7 +10,7 @@ comments: false
 
 Wether you are working on a report for your class, a manuscript for publication or some nice codes for your research, version control can help you to keep track of your work.
 
-[![Piled Higher and Deeper by Jorge Cham, http://www.phdcomics.com/comics/archive_print.php?comicid=1531](../images/phd101212s.png)](http://www.phdcomics.com)
+![]({{ site.url }}/images/hoffman_login.png)
 
 "Piled Higher and Deeper" by Jorge Cham, http://www.phdcomics.com
 
