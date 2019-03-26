@@ -41,13 +41,13 @@ Let's start by sharing the changes we've made to our current project with the
 world.  Log in to GitHub, then click on the icon in the top right corner to
 create a new repository called `planets`:
 
-![]({{ site.url }}/images/github-create-repo-01.png)
+![]({{ site.url }}/images/github-01.png)
 
 Name your repository "planets" and then click "Create Repository":
 
-![]({{ site.url }}/images/github-create-repo-02.png)
+![]({{ site.url }}/images/github-02.png)
 
 As soon as the repository is created, GitHub displays a page with a URL and some
 information on how to configure your local repository:
 
-!![]({{ site.url }}/images/github-create-repo-03.png)
+!![]({{ site.url }}/images/github-03.png)
