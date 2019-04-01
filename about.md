@@ -13,7 +13,7 @@ The best way to contact me is by email or through the course GitHub.
 
 Teaching Assistant: Daniel Chavez <br>
 dechavezv@ucla.edu<br>
-__Office Hours:__ MW 4-5pm at Terasaki LSB 4th floor common area.<br>
+__Office Hours:__ MW 4-5pm at Hershey Hall 309.<br>
 The best way to contact me is by email
 
 ______
