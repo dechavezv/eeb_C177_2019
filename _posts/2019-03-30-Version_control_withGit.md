@@ -485,4 +485,30 @@ $ git push -u origin master
 
 Go to your repository on github. It should contain the new file W1-Discussion-In-class with your answers.  
   
-Finally, copy the URL for your repository and email it to Daniel at `dechavezv@ucla.edu`.   
+Copy the URL for your repository and email it to Daniel at `dechavezv@ucla.edu`.   
+
+So far you have learn how to keep track of changes made in your directory with `git init` and 
+git `git add `, how to save those changes with `git commit` and share those changes with the world with `git push`. 
+Also you learned how to clone a repository available online, modified information and add it to your own repository.
+  
+## Git Challenge !!!
+
+1. Clone another student repository.  
+2. Create a file that contains interesting facts about the student favorite animals. You can give it whater name you want.  
+3. Push the new document to the Owners (student) repository.
+
+**Hint**: You cloned Daniel's repository but 
+instead of pushing the modified information to Daniel's repository you copied the file into your folder, changed it and push it to your own repository. 
+How would you push your changes to Daniel's repository? Use the solution to conduct step 3 above.  
+
+**IMPORTANT**: Before pushing things to the student repository, the owner of the repository needs to give you Collaborator access. 
+On GitHub, the owner should click the settings button on the right, then select Collaborators, and enter your username. Tell the student to delete permisions once your done with the challenge.
+ 
+![]({{ site.url }}/images/github-colaboration.png)
+
+To accept access to the Owner’s repo, you need to go to https://github.com/notifications. Once there you can accept access to the Owner’s repo.
+
+Once you are done with the challenge take a screenshoot to show the file that you added and proof of collaboration. Email this to Daniel `dechavezv@ucla.edu`. 
+You should send something like this:
+
+![]({{ site.url }}/images/github-proof_collaboration.png) 
