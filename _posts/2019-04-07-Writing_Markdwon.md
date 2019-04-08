@@ -153,11 +153,11 @@ Here is the list of things you must do for this first challenge.
 2. Transfer `README.md` from hoffman to `c177_Labs` directory located at your Desktop.
 3. Open the `README.md` file with Rstudio.  
 4. Then do the following changes.  
-	*Add the title "My favorite animal" to `README.md`.  
-	*Add the scientific name of your animal with bold and italic.  
-	*Add a list of interesting facts about your animal.  
-	*Add a link to a nice picture of your animal.  
-	*Add a link to a youtube video of your animal.  
+- [ ] Add the title "My favorite animal" to `README.md`.  
+- [ ] the scientific name of your animal with bold and italic.  
+- [ ] Add a list of interesting facts about your animal.  
+- [ ] Add a link to a nice picture of your animal.  
+- [ ] Add a link to a youtube video of your animal.  
 5. Save the document.
 6. Transfer `README.md` from `~/Desktop/c177_Labs` back to `eeb-177` in hoffman.
 7. Navigate to `eeb-177`. Then, save and push your changes to your github repostiory.  
