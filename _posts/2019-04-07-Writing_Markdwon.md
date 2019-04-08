@@ -158,7 +158,7 @@ Here is the list of things you must do for this first challenge.
 - [ ] Add a list of interesting facts about your animal.  
 - [ ] Add a link to a nice picture of your animal.  
 - [ ] Add a link to a youtube video of your animal.  
-5. Save the document.
+5. Save the document. Say **yes** if `Rstuio` ask to replace an exisitng file.
 6. Transfer `README.md` from `~/Desktop/c177_Labs` back to `eeb-177` in hoffman.
 7. Navigate to `eeb-177`. Then, save and push your changes to your github repostiory.  
 **Hint**:`add` `commit` and `push` maybe useful.
@@ -181,13 +181,14 @@ Before doing the next challenge, on hoffman navigate to your HOME and create a d
 **hint**: new direcotries are not repostiories by default. If you type `ls -a` you will **NOT** see the hidden 
 `.git` directory that defines a repository. Try to remember what is the git command that you must type to 
 make `.git` apper for the first time.   
-8. Copy `example_CV.md` into the `curriculum-markdown` directory.
-9. Save your changes in `.git`.  
+8. Copy `example_CV.md` into the `curriculum-markdown` directory.  
+9. Within the `curriculum-markdown` directory, change the name of the file from `example_CV.md` to `README.md`.  
+10. Save your changes in `.git`.  
 **Hint**:use the git commans you alredy now.  
-10. Go to your GitHub account and create a new repository called `curriculum-markdown`.  
+11. Go to your GitHub account and create a new repository called `curriculum-markdown`.  
 **Hint**: you create Github repositories like this last week  
-11. Push your changes to the repository you just created.  
+12. Push your changes to the repository you just created.  
 **Hint**: you may want to copy and paste information shown in the Github repository you just crated. Again, you did this last week.   
-12. Go to your github repository and verify that the changes were actually made.
+13. Go to your github repository and verify that the changes were actually made.
 
 :clap: Congratulations!! You have created a nice CV that you can share with the world. This is way better than "Hello world!!"
