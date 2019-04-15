@@ -1,8 +1,14 @@
 ---
 layout: page
-title: Lecture PDFs
+title: Lecture PDFS
 permalink: lecture_pdfs/
 ---
 
-Lecture 1:  [link]({{ site.url }}/lecture_pdfs/week1_Lecture_hoffman.pdf)   
-Lecture 2:  [link]({{ site.url }}/lecture_pdfs/week2_Lecture_Globus.pdf)
+Lecture week1 Monday:  [link]({{ site.url }}/lecture_pdfs/Week_1_Monday.html)   
+Lecture week1 Wednesday:  [link]({{ site.url }}/lecture_pdfs/Week_1_Wednesday.html)  
+Lecture week2 Golobus Monday:  [link]({{ site.url }}/lecture_pdfs/week2_Lecture_Globus.pdf)  
+Lecture week2 part1 Monday:  [link]({{ site.url }}/lecture_pdfs/Week2_Monday_pt1.html)  
+Lecture week2 part2 Monday:  [link]({{ site.url }}/lecture_pdfs/Week2_Monday_pt2.html)  
+Lecture week2 Wednesday:  [link]({{ site.url }}/lecture_pdfs/Week2_Wednesday_pt1.html)  
+Lecture week3 Monday:  [link]({{ site.url }}/lecture_pdfs/Week3_Monday.html)  
+Lecture week3 Wednesday:  [link]({{ site.url }}/lecture_pdfs/Week3_Wednesday.html)  

@@ -162,6 +162,11 @@ Here is the list of things you must do for this first challenge.
 6. Transfer `README.md` from `~/Desktop/c177_Labs` back to `eeb-177` in hoffman.
 7. Navigate to `eeb-177`. Then, save and push your changes to your github repostiory.  
 **Hint**:`add` `commit` and `push` maybe useful.
+**Note**: If you have problems pushing the repostiroy. You 
+can update the content acording to the remote repository. Before doing 
+`git put` have a backup of README.md file. Then, type `git pull`. This will update the repository. 
+Now, copy the README.md file agian and try tu do `add` `commit` and `push`.  
+
 8. Go to your github repository and verify that the changes were made.
 
 Is fun to write something about our favorite animal. But, now lets try to do something work-related. 
