@@ -856,5 +856,5 @@ at the location  `classdata/Labs/Lab3/Second_challenge`.  There should **NOT BE*
 
 
 
-This manual is based on orignal work made by DAniel Chavez. The example about sed were based on this [site1](https://github.com/QCB-Collaboratory/W1.UNIX.command.line). Information
-about AWK was based on this [site2](http://reasoniamhere.com/2013/09/17/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-2/).  
+This manual is based on original work made by Daniel Chavez. The example about `sed` were based on this [site](https://github.com/QCB-Collaboratory/W1.UNIX.command.line). Information
+about AWK was based on this [site](http://reasoniamhere.com/2013/09/17/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-2/).  
