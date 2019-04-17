@@ -817,10 +817,10 @@ We saved the output to a file, so now we can use AWK to see how many genes are m
 
 ## BONUS Challenge
 
-Copy the file `Example.bed` from `~/classdata/Labs/Lab3/Second_challenge`. This is a file with **31,558 lines**!!! Good luck trying excel. In this challenge 
-you will manipulate information of the file to calcualte relevant iformation. 
+Copy the file `Example.bed` from `~/classdata/Labs/Lab3/Second_challenge`. This is a BED file with **31,558 lines** !!! Good luck trying excel. A BED file (.bed) is a tab-delimited text file that defines a feature track. It can have any file extension, but .bed is recommended. 
+In this challenge you will manipulate this file to obtain relevant iformation. 
 
-This file contained the following information:  
+This file has the following information:  
 ~~~
 [c177-t0@login2 ~]$ less -F Example.bed
 ~~~
@@ -838,17 +838,17 @@ chr01   268338  ENSCAFT00000000001      ENPP1
 chr01   269135  ENSCAFT00000000001      ENPP1
 ~~~
 
-- The 1st_column tell us in what chromosome the genes is located.  
-- The 2nd column is the postion of the gene in the chromosome.    
-- The 3rd column is the unique ID of the transcripts; A single gene can.    
-produce multiple different transcripts depending on what exons were transcribed.  
-- The 4th column is the name of the gene.  
+- The 1st_column: what chromosome the genes is located.  
+- The 2nd column: the postion of the gene in the chromosome.    
+- The 3rd column: the unique ID of the transcripts; A single gene can 
+produce multiple different transcripts depending on what exons were used.  
+- The 4th column: the name of the gene.  
 
 For the second challenge you must do the following:  
 
 1. Create a new file containing chromosomes (1st_column), name of genes (2nd_column) and 
 transcript (3rd column). Save the file with the name `Only_genes_<your_initials>.txt` 
-at the location  `classdata/Labs/Lab3/Second_challenge`.  There should be **NO** duplicated names.  
+at the location  `classdata/Labs/Lab3/Second_challenge`.  There should **NOT BE** duplicated names.  
 **Note**:replace `<your_initials>` with your actual name.  
 2. What is the number of transcripts for the gene 'FGFR3'.  
 3. Number of genes present in chr01.  
