@@ -794,16 +794,16 @@ head number_of_exons_by_gene.txt
 ~~~
 {:  .language-bash}
 ~~~
-CAPN6 24
-ARL14EPL 3
-DACH1 38
-IFNA13 1
-HSP90AB1 36
-CAPN7 52
-DACH2 84
-IFNA14 1
-LARS 188
-CAPN8 78
+AC090427.1 8
+BMP1 480
+BMP2 6
+ELANE 22
+NKX2-8 4
+RP1-139D8.6 4
+BMP3 6
+ASPM 78
+BMP4 52
+EDARADD 20
 ~~~
 
 In real life it takes less than a minute to count up one million exons. Pretty impressive.  
@@ -811,7 +811,7 @@ In real life it takes less than a minute to count up one million exons. Pretty i
 We saved the output to a file, so now we can use AWK to see how many genes are made up of a single exon.  
 
 ~~~
-[c177-t0@login2 ~]$ awk '$2 == 1' number_of_exons_by_gene.txt | wc -l # 1362
+[c177-t0@login2 ~]$ awk '$2 == 1' number_of_exons_by_gene.txt | wc -l # 167
 ~~~
 {:  .language-bash}
 
