@@ -340,7 +340,7 @@ you will have to sort the file and delete duplicate fields. Originally, the file
 
 Here is the list of steps that you have to do for this challenge:  
 
-1. Change especial symbols `.`, `%`, `..`, `@`, `##` to tabs.
+1. Change especial symbols `%`, `..`, `@`, `.##` ,`##.`to tabs.
 2. Replace `#` with nothing. In other words, delete `#`.      
 3. Sort the file acording to values of the 6th column (Day of sequencing).  
 3. Save only the 1st and 6th column into a file called `Sort_All_Genes_<your_initials>.txt`. **Delete duplicate genes**.  
