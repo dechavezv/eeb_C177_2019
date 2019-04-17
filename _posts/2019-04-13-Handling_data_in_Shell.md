@@ -418,9 +418,9 @@ You should get something like this.
 ##contact: gencode@sanger.ac.uk
 ##format: gtf
 ##date: 2013-09-02
-chr1    HAVANA,exon,173753,173862,.,-,. gene_id "ENSG00000241860.2"; transcript_id "ENS
-chr1    HAVANA,transcript,1246986,1250550,.,-,. gene_id "ENSG00000127054.14"; transcrip
-chr1    HAVANA,CDS,1461841,1461911,.,+,0        gene_id "ENSG00000197785.9"; transcript
+chr1    HAVANA	exon	    173753	173862	.	-	.	gene_id "ENSG00000241860.2"; transcript_id "ENS
+chr1    HAVANA	transcript  1246986	1250550	.	-	.	gene_id "ENSG00000127054.14"; transcrip
+chr1    HAVANA	CDS	    1461841	1461911	.	+	0       gene_id "ENSG00000197785.9"; transcript
 ~~~
 
 **Imagine you wanted to get the list of all the protein-coding genes 
