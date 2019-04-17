@@ -353,7 +353,7 @@ human DNA. He needs to find out the name of this gene to repeat the DNA extracti
 sequencing. **What is the gene that Charles need to resequence?***  
 
 5. Add the answer to the file `Sort_All_Genes_<YOUR_NAME>.txt`. Then `cp` the file to 
-`classdata/Labs/Lab3/First_challlenge`.  
+`classdata/Labs/Lab3/First_challenge`.  
 **Note**: replace `<your_initials>` with your actual initials of your name.  
 
 ## AWK  
