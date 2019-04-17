@@ -400,10 +400,12 @@ chr1,HAVANA,CDS,1461841,1461911,.,+,0%gene_id "ENSG00000197785.9"; transcript_id
 
 ## Mini-challenge  
 The file above contains Gencode’s human transcriptome. It will seem less intimidating 
-if we merge the files into a single file that is tab-delimitated. Go ahead and merge all files in order and replace the `,` 
-for tabs with `sed`. Save the file as `transcriptome.gtf`.  
-Remember that to merge files in order you use a wildcard like this `cat <Some_name>{0..99}*`. 
-You should get something like this.  
+if we merge the files into a single file that is tab-delimitated. Go ahead and merge all files in order and replace the `,` and `%` 
+for tabs. You may want to use `sed`.  
+Save the file as `transcriptome<your_initials>.gtf` and cp the file to `classdata/Labs/Lab3/First_challlenge`.    
+**Note**:replace ```your_initials``` with your actual initials of your name.    
+Remember that to merge files in order you use a wildcard like this ```cat <Some_named>{0..99}*```.    
+You should get something like this.   
 
 ~~~
 [c177-t0@login2 ~]$ less -F transcriptome.gtf
