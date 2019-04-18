@@ -28,7 +28,7 @@ Login into Hoffman. Then, copy the directory `Genes_example/` located at `classd
 into your HOME directory   
 **Hint**: `cp` by itself wont do the task.    
 
-The folder `Example_cat/` have individual files with important 
+The folder `Genes_example/` have individual files with important 
 information about some genes that Charles sent for DNA sequencing.  
 
 ~~~
