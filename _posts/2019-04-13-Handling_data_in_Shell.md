@@ -384,7 +384,7 @@ transcriptome19.gtf  transcriptome4.gtf   transcriptome80.gtf
 ~~~
 
 ~~~
-[c177-t0@login2 ~]$ less -S transcriptome0.gtf 
+[c177-t0@login2 ~]$ less -S transcriptome1.gtf 
 ~~~
 {:  .language-bash}
 ~~~
