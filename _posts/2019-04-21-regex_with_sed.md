@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post 
 title: " Week 4- Regular expressions with sed "
 description: "Guide to undertand regular expression"
 category: articles
