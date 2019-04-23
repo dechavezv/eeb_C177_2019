@@ -282,7 +282,7 @@ wild dogs rule
 
 # Mini-challenge
 
-In a file called `Week3_mini-challenge<your.initials>.sh` save the 
+In a file called `Week4_mini-challenge<your.initials>.sh` save the 
 `echo` and `sed` commands that give you the following **Input** and **Output** combinations:
 
 1.  
@@ -304,7 +304,7 @@ Input: 12345abcde678910fghij
 Output: ab  cd  ef  gh  ij
 _note: white spaces are tabs_
 
-To **SUBMIT** your Mini-challenge, `push` your file `Week3_mini-challenge<your.initials>.sh` to this Github 
+To **SUBMIT** your Mini-challenge, `push` your file `Week4_mini-challenge<your.initials>.sh` to this Github 
 [repository](https://classroom.github.com/a/eQ6KnMOT)  
 ***Note***:replace `<your_initials>` with your actual name  
 
@@ -394,9 +394,4 @@ above (__hint__ not all of the lines will have six taxonomic ranks).
 5. To **SUBMIT** your challenge `push` your file `challenge_regex_sed_<your_initials>.txt` to this Github 
 [repository](https://classroom.github.com/a/eQ6KnMOT)  
 ***Note***:replace `<your_initials>` with your actual name
-
-
-
-
-
 
