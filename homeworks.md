@@ -16,7 +16,7 @@ Here you will find the link for each Homework and it's due date.
 Discussion challenges are due next discussion section. For instance, if you have a discussion on Tuesday of week5 you must submit challenges before 1pm on Tuesday of week6.  
 
 ## In-class exercise
-In-class exercises are uslually due the same day. However, they could be extended to next class (wednesday) if need it.  
+In-class exercises are uslually due the same day. However, they could be extended to next class if needed.  
 **IMPORTANT**: In-class exercises extensions have to be granted by Dr. Emily Curd in advance.     
 
 ## What is due this week???
