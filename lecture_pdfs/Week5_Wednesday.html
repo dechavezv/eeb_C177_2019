@@ -367,11 +367,12 @@ middle value in data: 13.0</code></pre>
 <p><strong>Slicing data</strong>: We can subset the data by indicating which parts of the array we want to keep. We need to specify the index range that we want to keep.</p>
 <p>So if we want to keep the first 4 rows and the first ten columns we would do the following:</p>
 <p>Add this to libs_and_data.py:</p>
-<pre><code>&quot;&quot;&quot;
+<pre><code>'''
 print the first 4 rows and first ten columns
-0:4 means “Start at index 0 and go up to, but not including, index 4.”
-0:10 means “Start at index 0 and go up to, but not including, index 10.”
-&quot;&quot;&quot;
+0:4 means Start at index 0 and go up to, but not including, index 4.
+0:10 means Start at index 0 and go up to, but not including, index 10.
+
+'''
 
 print(data[0:4, 0:10])</code></pre>
 <p>The new output is</p>
@@ -381,12 +382,11 @@ print(data[0:4, 0:10])</code></pre>
  [ 0.  0.  2.  0.  4.  2.  2.  1.  6.  7.]]</code></pre>
 <p>If we wanted to take the five rows that start at row 6 and the first 10 colums we would do the following:</p>
 <p>Add this to libs_and_data.py:</p>
-<pre><code>&quot;&quot;&quot;
+<pre><code>'''
 print the five rows starting at row 6 rows and first ten columns
-5:10 means “Start at index 5 and go up to, but not including, index 10.”
-0:10 means “Start at index 0 and go up to, but not including, index 10.”
-&quot;&quot;&quot;
-
+5:10 means Start at index 5 and go up to, but not including, index 10.
+0:10 means “Start at index 0 and go up to, but not including, index 10.
+'''
 print(data[5:10, 0:10])</code></pre>
 <p>The new output is:</p>
 <pre><code>[[ 0.  0.  1.  2.  2.  4.  2.  1.  6.  4.]
@@ -405,11 +405,11 @@ print(data[5:10, 0:10])</code></pre>
  Add this to libs_and_data.py:
 
  ```
- &quot;&quot;&quot;
+ '''
  print the three rows starting at row 1 rows and all of the columns from 36 to the end
- :3 means “Start at index 0 and go up to, but not including, index 3.”
- 36: means “Start at index 36 and go to the last index.”
- &quot;&quot;&quot;
+ :3 means Start at index 0 and go up to, but not including, index 3.
+ 36: means Start at index 36 and go to the last index.
+ '''
 
  print(data[:3, 36:])
  ```
@@ -426,8 +426,10 @@ This output can be saved in a variable as follows:
 
 Add this to libs_and_data.py:
 </code></pre>
-<p>“”&quot; Store the subset of the array above in a variable called subset1. Print the text subset1 is: and then print subset1 “”&quot;</p>
-<p>subset1 = data[:3, 36:] print(‘subset1 is:’) print(subset1)</p>
+<p>‘’’ Store the subset of the array above in a variable called subset1. Print the text subset1 is: and then print subset1 ‘’’</p>
+<p>subset1 = data[:3, 36:]<br />
+print(‘subset1 is:’)<br />
+print(subset1)</p>
 <pre><code>
 ___
 
