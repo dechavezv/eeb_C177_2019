@@ -393,129 +393,74 @@ print(data[5:10, 0:10])</code></pre>
  [ 0.  0.  2.  2.  4.  2.  2.  5.  5.  8.]
  [ 0.  0.  1.  2.  3.  1.  2.  3.  5.  3.]
  [ 0.  0.  0.  3.  1.  5.  6.  5.  5.  8.]
- [ 0.  1.  1.  2.  1.  3.  5.  3.  5.  8.]]
- ```
-
- We don't have to specify the upper and lower bound on the data using slice.  What the heck does that mean?  
-
- For example, if we are selection rows 1 - 3 we can indicate that we want 0:3 or just :3 and omit the zero.  Python knows that you mean 0.
-
- If we are selecting column 36 to the end of the array we can just indicate 36: and python will know what we want everything from 36 onward.  
-
- Add this to libs_and_data.py:
-
- ```
- '''
+ [ 0.  1.  1.  2.  1.  3.  5.  3.  5.  8.]]</code></pre>
+<p>We don’t have to specify the upper and lower bound on the data using slice. What the heck does that mean?</p>
+<p>For example, if we are selection rows 1 - 3 we can indicate that we want 0:3 or just :3 and omit the zero. Python knows that you mean 0.</p>
+<p>If we are selecting column 36 to the end of the array we can just indicate 36: and python will know what we want everything from 36 onward.</p>
+<p>Add this to libs_and_data.py:</p>
+<pre><code> '''
  print the three rows starting at row 1 rows and all of the columns from 36 to the end
  :3 means Start at index 0 and go up to, but not including, index 3.
  36: means Start at index 36 and go to the last index.
  '''
 
- print(data[:3, 36:])
- ```
-
- The new output is:
-
- ```
- [[ 2.  3.  0.  0.]
+ print(data[:3, 36:])</code></pre>
+<p>The new output is:</p>
+<pre><code> [[ 2.  3.  0.  0.]
  [ 1.  1.  0.  1.]
  [ 2.  2.  1.  1.]]
- ```
-
-This output can be saved in a variable as follows:
-
-Add this to libs_and_data.py:
 </code></pre>
-<p>‘’’ Store the subset of the array above in a variable called subset1. Print the text subset1 is: and then print subset1 ‘’’</p>
-<p>subset1 = data[:3, 36:]<br />
-print(‘subset1 is:’)<br />
-print(subset1)</p>
-<pre><code>
-___
+<p>This output can be saved in a variable as follows:</p>
+<p>Add this to libs_and_data.py:</p>
+<pre><code>'''
+Store the subset of the array above in a variable called subset1.
+Print the text subset1 is: and then print subset1
+'''
 
-## In class exercises
-
-Answer the following in a text file called Week5_inclass.txt and add them to your ''&lt;your_initials&gt;\_Week5_Wednesday' directory.
-
-__1.__ Why are we specifying python2 in the shebang? _Hint_ which version of python are we using?  How do we know which version of python we are using, what is the command to find out?
-
-__2.__ Which command prompt to you expect for bash?  Which command prompt do you expect for python?
-
-__3.__ With the exception of the shebang what does the `#` symbol indicate to bash and python?
-
-__4.__  What is the difference between commenting with `#` and triple quotes in python?
-
-__5.__ If the starting petdict for each command is:
-
-petdict =   {
-  &quot;dog&quot;: &quot;Fluffy&quot;,
-  &quot;cat&quot;: &quot;Muffin&quot;,
-  &quot;turtle&quot;: &quot;yurtle&quot;
-}
-
-Indicate the output of the following commands.  __Hint__ these are very similar to the commands used for list.
-
-
-if &quot;dog&quot; in petdict:
-  print(&quot;Yes, 'dog' is one of the keys in the petdict dictionary&quot;)
-
-
-print(len(petdict))
-
-
-petdict[&quot;fish&quot;] = &quot;bubbles&quot;
-print(petdict)
-
-
-petdict.pop(&quot;dog&quot;)
-print(petdict)
-
-petdict.popitem()
-print(petdict)
-
-
-del petdict[&quot;dog&quot;]
-print(petdict)
-
-del petdict
-print(petdict)
-
-
-petdict.clear()
-print(petdict)
-
-mydict = petdict.copy()
-print(mydict)
-
-
-mydict = dict(petdict)
-print(mydict)
-
-petdict = dict(fish=&quot;bubbles&quot;, dog=&quot;fluffy&quot;, cat=&quot;scratches&quot;)
-# note that keywords are not string literals
-# note the use of equals rather than colon for the assignment
-print(petdict)
-
-__6__. Look at the inflammation-01.csv data in bash (__hint__ use head, cat, less, etc).  What did the numpy array do to the data? For example, comment on the presence of floats and commas.
-
----
-
-Add the following scripts to the '&lt;your_initials&gt;\_Week5_Wednesday' directory
-
-__1.__ Write a python script called numbers_dict.py that contains a dictionary where the keys are the words for the numbers one - ten and the values are the corresponding numbers 1 -10. Then print the keys and values so that the output reads:
-</code></pre>
-<p>one = 1 two = 2 etc….</p>
-<pre><code>
-__2.__ Write a python script called numpy_csv2.py that imports the library numpy, imports the datafile `/u/home/class/c177/c177-i0/classdata/In_class/Week5/Wednesday/data/inflammation-02.csv` and stores it in a variable, and performs the following actions on the datafile:
-
-  a. prints the shape of the data
-  b. Slices the first 15 rows and all of the columns and stores them in a variable called slice1
-  c. Print text that indicates that you slices the first 15 rows of the data set and then print the dataset.
-
-
-__3.__ Write a shell script called Week_5_Wed_master.sh that runs all of the scripts contained in ''&lt;your_initials&gt;\_Week5_Wednesday'. _Hint1_ You will need to load python. _Hint2:_ You will need to write a for loop.  It will be similar to the following, but instead of printing the file name it will run python on the file name.
-</code></pre>
-<p>for x in *.py do echo $x done ```</p>
+subset1 = data[:3, 36:]  
+print('subset1 is:')  
+print(subset1)  </code></pre>
+<hr />
+</div>
+<div id="in-class-exercises" class="section level2">
+<h2>In class exercises</h2>
+<p>Answer the following in a text file called Week5_inclass.txt and add them to your ‘’<your_initials>_Week5_Wednesday’ directory.</p>
+<p><strong>1.</strong> Why are we specifying python2 in the shebang? <em>Hint</em> which version of python are we using? How do we know which version of python we are using, what is the command to find out?</p>
+<p><strong>2.</strong> Which command prompt to you expect for bash? Which command prompt do you expect for python?</p>
+<p><strong>3.</strong> With the exception of the shebang what does the <code>#</code> symbol indicate to bash and python?</p>
+<p><strong>4.</strong> What is the difference between commenting with <code>#</code> and triple quotes in python?</p>
+<p><strong>5.</strong> If the starting petdict for each command is:</p>
+<p>petdict = { “dog”: “Fluffy”, “cat”: “Muffin”, “turtle”: “yurtle” }</p>
+<p>Indicate the output of the following commands. <strong>Hint</strong> these are very similar to the commands used for list.</p>
+<p>if “dog” in petdict: print(“Yes, ‘dog’ is one of the keys in the petdict dictionary”)</p>
+<p>print(len(petdict))</p>
+<p>petdict[“fish”] = “bubbles” print(petdict)</p>
+<p>petdict.pop(“dog”) print(petdict)</p>
+<p>petdict.popitem() print(petdict)</p>
+<p>del petdict[“dog”] print(petdict)</p>
+<p>del petdict print(petdict)</p>
+<p>petdict.clear() print(petdict)</p>
+<p>mydict = petdict.copy() print(mydict)</p>
+<p>mydict = dict(petdict) print(mydict)</p>
+<p>petdict = dict(fish=“bubbles”, dog=“fluffy”, cat=“scratches”) # note that keywords are not string literals # note the use of equals rather than colon for the assignment print(petdict)</p>
+<p><strong>6</strong>. Look at the inflammation-01.csv data in bash (<strong>hint</strong> use head, cat, less, etc). What did the numpy array do to the data? For example, comment on the presence of floats and commas.</p>
+<hr />
+<p>Add the following scripts to the ‘<your_initials>_Week5_Wednesday’ directory</p>
+<p><strong>1.</strong> Write a python script called numbers_dict.py that contains a dictionary where the keys are the words for the numbers one - ten and the values are the corresponding numbers 1 -10. Then print the keys and values so that the output reads:</p>
+<pre><code>one = 1
+two = 2
+etc....</code></pre>
+<p><strong>2.</strong> Write a python script called numpy_csv2.py that imports the library numpy, imports the datafile <code>/u/home/class/c177/c177-i0/classdata/In_class/Week5/Wednesday/data/inflammation-02.csv</code> and stores it in a variable, and performs the following actions on the datafile:</p>
+<ol style="list-style-type: lower-alpha">
+<li>prints the shape of the data</li>
+<li>Slices the first 15 rows and all of the columns and stores them in a variable called slice1</li>
+<li>Print text that indicates that you slices the first 15 rows of the data set and then print the dataset.</li>
+</ol>
+<p><strong>3.</strong> Write a shell script called Week_5_Wed_master.sh that runs all of the scripts contained in ‘’<your_initials>_Week5_Wednesday’. <em>Hint1</em> You will need to load python. <em>Hint2:</em> You will need to write a for loop. It will be similar to the following, but instead of printing the file name it will run python on the file name.</p>
+<pre><code>for x in \*.py
+do
+  echo $x
+done</code></pre>
 </div>
 
 
