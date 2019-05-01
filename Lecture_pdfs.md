@@ -3,6 +3,7 @@ layout: page
 title: Lecture PDFS
 permalink: lecture_pdfs/
 ---
+#
 
 Lecture week1 Monday:  [link]({{ site.url }}/lecture_pdfs/Week_1_Monday.html)   
 Lecture week1 Wednesday:  [link]({{ site.url }}/lecture_pdfs/Week_1_Wednesday.html)  
