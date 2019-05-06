@@ -230,7 +230,7 @@ You can solve this by sending this information to the screen instead of the outp
 The way you do this in python is by adding the following line:
 
 ```python
-sys.stderr.write("Processing file %s\n" % (FIleName))
+sys.stderr.write("Processing file %s\n" % (InfileName))
 ```
 
 The `sys.stderr.write()` stament, like the file-related `.write()` statement, 
@@ -260,7 +260,7 @@ if len(sys.argv) < 2:
 else:
 	FileList= sys.argv[1:]
 	for InfileName in FileList:
-	sys.stderr.write("Processing file %s\n" % (FIleName))
+	sys.stderr.write("Processing file %s\n" % (InfileName))
 ```
 
 Now let’s runt the script again and see what is different
