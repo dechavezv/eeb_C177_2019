@@ -52,7 +52,9 @@ Then, we will write codes in `python` that extract values from those files and c
 file. 
 
 Before we start let's look at the files we just transfer from hoffman. This files contains a series of emission spectra (intensity at a certain wavelength) 
-for various colors of ligth-emiting diodes.  
+for various colors of ligth-emiting diodes. Notice that values of the first column (x) are the same in all the files (collected with the same machine). 
+Also, if you look at column X again you will notice that values 
+occured in the same order in all the files.   
 
 ~~~
 $ ls LED*
@@ -95,7 +97,7 @@ Open your text editor and enter these lines into your blank  Mergefiles.py scrip
 #!/usr/bin /env python
 import sys
 for MyArg in sys.argv:
-print MyArg
+	print MyArg
 ```
 
 Once import the sys module in you script, you have access to the sys.argv variable. This variable is a Python list of arguments sent to the program when the user executes it. It provides a way to pass data from the command-line world to the Python world.
@@ -103,7 +105,7 @@ Once import the sys module in you script, you have access to the sys.argv variab
 Save the file and run in the terminal window. 
 
 ~~~
-$ Mergefiles.py 
+$ python Mergefiles.py 
 ~~~
 
 ~~~
@@ -113,10 +115,10 @@ Mergefiles.py
 Interesting! Eve thought you didn’t pass any arguments to ` Mergefiles.py` the `sys.arv` variable was not empty. This is because the zeroth element of the when you use arguments in Python. In other words, don’t assume that the first argument you have passed to the program on the command line is the first argument you have passed to the program on the command line is the first argument you have passed to the program on the command line is the first argument. Try running  Mergefiles.py again, and add some arguments of your own:
 
 ~~~
-$ Mergefiles.py first secod “third and fourth”
+$ python Mergefiles.py first secod “third and fourth”
 ~~~
 ~~~
-$ Mergefiles.py
+$ python Mergefiles.py
 first
 second
 “third and fourth”
@@ -126,7 +128,7 @@ As you can see, each argument was separated by a space on the command line and e
 
 So far this is pretty straightforward:
 ~~~
-$ Mergefiles.py LED*.txt
+$ python Mergefiles.py LED*.txt
 ~~~
 
 ~~~
