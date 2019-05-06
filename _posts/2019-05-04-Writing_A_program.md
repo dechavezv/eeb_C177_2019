@@ -51,6 +51,28 @@ In this class, we are going to build a program that takes a list of documents sp
 Then, we will write codes in `python` that extract values from those files and combined them into a single master 
 file. 
 
+Before we start let's look at the files we just transfer from hoffman. This files contains a series of emission spectra (intensity at a certain wavelength) 
+for various colors of ligth-emiting diodes.  
+
+~~~
+$ ls LED*
+LEDBlue.txt  LEDGreen.txt  LEDRed.txt  LEDYellow.txt
+~~~
+
+~~~
+$ less LEDBlue.txt
+x	BlueLED
+350.12	4
+350.48	8
+350.85	3
+351.21	11
+351.58	13
+351.94	12
+352.30	4
+352.67	8
+353.03	10
+~~~
+
 ## Recognizing user input with python
 
 The first part of this program will be a way for getting user input by passing 
