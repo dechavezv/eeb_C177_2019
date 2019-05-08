@@ -5,6 +5,7 @@ permalink: projects/
 ---
 
 ## Groups for class project
+
 [Groups]({{ site.url }}/projects/group.html)
 
 ## Presentations
