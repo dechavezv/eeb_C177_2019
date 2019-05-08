@@ -25,3 +25,10 @@ The following information is about what you have to submited:
 ### Week5
 * [Mini-challenge](https://dechavezv.github.io/eeb_C177_2019//articles/2019/04/21/regex_with_sed.html) is due before your discussion section.  
 * [Challenge](https://dechavezv.github.io/eeb_C177_2019//articles/2019/04/21/regex_with_sed.html) is due before your discussion section.  
+
+### Week6    
+* [Monday-InClass-Exercise](https://classroom.github.com/assignment-invitations/0ea22e278459286cc4c67f1d506cc43e) is due Wednesday at 11pm of week6.  
+* [Wednesday-InClass-Exercise](https://github.com/pceeb/UCLA_Spring_2019/blob/master/What_you_should_know_from_lecture/Week6_Wednesday.md) is due Monday at 11pm of week7.  
+
+
+

@@ -121,69 +121,49 @@ $(document).ready(function () {
 </div>
 
 
-<div id="groups-for-class-projects" class="section level2">
-<h2>Groups for class projects</h2>
-<table>
-<thead>
-<tr class="header">
-<th>Group</th>
-<th>Names</th>
-<th>HowMany</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>skin_cells</td>
-<td>Hanna</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>primer desing</td>
-<td>Markus</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>PhyloMicro</td>
-<td>Lennice,Ruben</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>FishGut</td>
-<td>JordanB,Sara</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>ShinyApps_DiseaseModel</td>
-<td>Kyro,Irvin</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>ShinyApps_Physics</td>
-<td>Christopher,Taylor_Rain,Christina</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Invasive_Species</td>
-<td>Sohil,Anna</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>Plants_TR8</td>
-<td>Nicole,JordanH</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>rgbif</td>
-<td>TaylorA,Maria,Bryan</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>FishBase</td>
-<td>Keira</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
+<div id="what-you-should-know-for-lecture-week-6" class="section level1">
+<h1>What You Should Know For Lecture: Week 6</h1>
+<div id="wednesday" class="section level2">
+<h2>Wednesday:</h2>
+<div id="announcements-" class="section level3">
+<h3>Announcements-</h3>
+<p>Any exercises not completed in class will be due Monday at 11 pm.</p>
+<p>If you need help, or just want to share your progress, please come to office hours or chat with us during class about your projects.</p>
+<hr />
+</div>
+<div id="today-in-class" class="section level3">
+<h3>Today in class</h3>
+<p>In the /u/home/class/c177/c177-i0/classdata/In_class/Week6/Wednesday/script_file directory is a python script called run_namecount.py , a test file called tax_test.txt and an output directory called ./namecounts</p>
+<p>This script takes a file with this format:</p>
+<pre><code>gi_EU272527;tax=d:Fungi,p:Ascomycota,c:Eurotiomycetes,o:Eurotiales,f:Trichocomaceae,g:Paecilomyces;
+gi_L54118;tax=d:Fungi,p:Basidiomycota,c:Agaricomycetes,o:Boletales,f:Suillaceae,g:Suillus;
+gi_GQ165636;tax=d:Fungi,p:Basidiomycota,c:Agaricomycetes,o:Agaricales,f:Cortinariaceae,g:Phaeocollybia;
+gi_HQ909094;tax=d:Fungi,p:Ascomycota,c:Saccharomycetes,o:Saccharomycetales,f:Saccharomycodaceae,g:Hanseniaspora;
+gi_EU168101;tax=d:Fungi,p:Basidiomycota,c:Agaricomycetes,o:Agaricales,f:Coprinaceae,g:Coprinus;
+gi_EU008620;tax=d:Fungi,p:Ascomycota,c:Lecanoromycetes,o:Lecanorales,f:Stereocaulaceae,g:Lepraria;
+gi_GU979821;tax=d:Fungi,p:Ascomycota,c:Lecanoromycetes,o:Lecanorales,f:Parmeliaceae,g:Parmelina;
+gi_AJ229064;tax=d:Fungi,p:Ascomycota,c:Saccharomycetes,o:Saccharomycetales,f:Saccharomycetaceae,g:Saccharomyces;
+gi_JQ085932;tax=d:Fungi,p:Basidiomycota,c:Agaricomycetes,o:Agaricales,f:Inocybaceae,g:Inocybe;
+gi_AF414292;tax=d:Fungi,p:Ascomycota,c:Sordariomycetes,o:Hypocreales,f:Hypocreaceae,g:Hypocrea;</code></pre>
+<p>and counts the occurrences of each taxonomic rank. The output file looks something like the example below, where the first column is the count of occurrences of a taxonomic rank and the second column is the taxonomic rank (d:domain, c:class, o:order, f:family, g:genus) and name. For example, the domain Fungi (d:Fungi) can be found 9336 times in tax_test.txt, but the genus Scedosporium (g:Scedosporium) occurs only 1 time in tax_test.</p>
+<pre><code>9336    d:Fungi
+271     o:Capnodiales
+193     f:Boletaceae
+1   g:Scedosporium
+2   g:Dirinaria
+11  g:Scutellinia
+17  f:Hericiaceae
+6   g:Candelariella
+6   g:Battarrea
+3   g:Seimatosporium</code></pre>
+</div>
+</div>
+</div>
+<div id="in_class-assignment" class="section level1">
+<h1>In_class assignment</h1>
+<p>Your job is to figure out how the code works. The person that wrote the code (Emily…) did a really poor job of commenting the script. There are a number of <code>#</code> in the code file where there should be comments describing a step in the program. For today’s assignment, you need to fill in the comments that describe chunks of code.</p>
+<p>Use any means necessary to figure out what is going on (google, talk to a friend, ask me or Daniel). One way to see what is going on is to comment out parts of code and see what does or does not happen. Ask me about this during class if you are confused.</p>
+<p>Before you start commenting, please copy the directory /u/home/class/c177/c177-i0/classdata/In_class/Week6/Wednesday/script_file to a safe place in your home directory. Please rename the python script <your_initials>_run_namecount.py. Once you finish commenting the script please copy it to /u/home/class/c177/c177-i0/classdata/In_class/Week6/Wednesday/</p>
 </div>
 
 
