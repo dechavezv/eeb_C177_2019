@@ -17,4 +17,5 @@ Lecture week4 Wednesday:   [link]({{ site.url }}/lecture_pdfs/Week4_Wednesday.ht
 Lecture week5 Monday:   [link]({{ site.url }}/lecture_pdfs/Week5_Monday.html)  
 Lecture week5 Wednesday: [link]({{ site.url }}/lecture_pdfs/Week5Wednesday.html)  
 Lecture week6 Monday: [link]({{ site.url }}/lecture_pdfs/Week6_Monday.html)   
-Lecture week6 Wednesday: [link]({{ site.url }}/lecture_pdfs/Week6_Wednesday.html)  
+Lecture week6 Wednesday: [link]({{ site.url }}/lecture_pdfs/Week6_Wednesday.html)    
+Lecture week7 Monday: [link]({{ site.url }}/lecture_pdfs/Week7_Monday.html)  
