@@ -146,6 +146,52 @@ $(document).ready(function () {
 <p><a href="http://www.storybench.org/getting-started-r-rstudio-notebooks/" class="uri">http://www.storybench.org/getting-started-r-rstudio-notebooks/</a></p>
 <p><a href="http://www.storybench.org/getting-started-with-tidyverse-in-r/" class="uri">http://www.storybench.org/getting-started-with-tidyverse-in-r/</a></p>
 <p><a href="http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/" class="uri">http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/</a></p>
+</div>
+</div>
+<div id="there-is-a-problem-with-the-fivethirtyeight-tutorials" class="section level1">
+<h1>There is a problem with the fivethirtyeight tutorials</h1>
+<p>For the code:</p>
+<pre><code>murders_final_sort %
+  arrange(
+    change)
+murders_final_sort</code></pre>
+<p>Use this instead:</p>
+<pre><code>murders_final_sort &lt;- murders_final %&gt;%
+  arrange(
+    change)
+murders_final_sort</code></pre>
+<hr />
+<p>For the code:</p>
+<pre><code>midpts &lt;- barplot(murders_final_sort$change,
+                  cex.axis = 1.0, cex.names = 0.6,
+                  ylim = c(-20, 120), main = &quot;Change in murders from 2014 to 2015&quot;
+)
+
+text(murders_final_sort$city,
+     x = midpts,
+     offset = -0.1,
+     y = -20,
+     cex = 0.5,
+     srt = 60,
+     xpd = TRUE,
+     pos = 2
+)</code></pre>
+<p>Use this instead:</p>
+<pre><code>midpts &lt;- barplot(murders_final_sort$change,
+                  cex.axis = 1.0, cex.names = 0.6,
+                  ylim = c(-20, 120), main = &quot;Change in murders from 2014 to 2015&quot;
+)
+
+text(murders_final_sort$city_state,
+     x = midpts,
+     offset = -0.1,
+     y = -20,
+     cex = 0.5,
+     srt = 60,
+     xpd = TRUE,
+     pos = 2
+)
+</code></pre>
 <hr />
 <div id="in-class-exercises" class="section level3">
 <h3>In class exercises</h3>
@@ -154,7 +200,6 @@ $(document).ready(function () {
 <p><your_initials>_getting_started_tidyverse.Rmd</p>
 <p><your_initials>_fivethirtyeight.Rmd</p>
 <p>Copy these R notebook files to the ~/classdata/In_class/Week7/Monday directory</p>
-</div>
 </div>
 </div>
 
