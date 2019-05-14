@@ -85,3 +85,13 @@ that includes example taxonomy data for the `fishbase` like projects.
 
 _Just as a final friendly reminder:_
 Your projects should be able to run on **Hoffman2**.  
+
+
+## Homework
+
+Besides having a pseudocode of your program, you must submit
+to [**this repository**](https://classroom.github.com/a/smEx5SLS) 
+one chunk (e.g small script) of your program that 
+takes an input do something with it and gives an output. This is due
+next discussion section.
+**Important:** You must include some input, so Daniel can run your script.
