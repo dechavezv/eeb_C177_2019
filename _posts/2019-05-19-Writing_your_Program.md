@@ -30,5 +30,5 @@ You will have the opportunity to tell us how much work you think that your teamm
 
 # Homework
 
-Submit a new version of the program in this [repostiroy](https://classroom.github.com/a/tu20JUgI). It should be more functional than the version submitted week 7. 
+Submit a new version of the program in this [repository](https://classroom.github.com/a/tu20JUgI). It should be more functional than the version submitted week 7. 
 This is due before next discussion section.
