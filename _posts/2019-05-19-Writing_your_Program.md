@@ -14,9 +14,9 @@ So by now you have the `core function` of your project figured out and you have 
 
 Today in discussion, you are going to work on the code that strings it all together.  
 
-There is a folder on GitHub ```https://github.com/pceeb/UCLA_Spring_2019/tree/master/Term_project/Example_scripts``` that contains useful scripts that you can incorporate into your project.  
+There is a folder on GitHub [here](https://github.com/pceeb/UCLA_Spring_2019/tree/master/Term_project/Example_scripts) that contains useful scripts that you can incorporate into your project.  
 
-There is also a folder on GitHub ```https://github.com/pceeb/UCLA_Spring_2019/tree/master/Term_project/Example_data``` that includes example taxonomy data for the 'fishbase' like projects.
+There is also a folder on GitHub [here](https://github.com/pceeb/UCLA_Spring_2019/tree/master/Term_project/Example_data) that includes example taxonomy data for the `fishbase` like projects.  
 
 ---
 
