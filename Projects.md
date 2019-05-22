@@ -18,6 +18,12 @@ Group | Names | HowMany |
 [FishBase](https://github.com/ksmonuki/fish-stuff.git) | Keira | 1 |  
 [Puma_Concatenation](https://github.com/teebrooke/Final-Project.git) | TaylorA | 1 |      
 
+## Overview
+
+[Here](https://github.com/pceeb/UCLA_Spring_2019/blob/master/Term_project/Term_project_overview.md) you can find 
+useful information about what things that your project should have.  
+
+
 ## Scripts and Data
 
 There is a folder on GitHub [here](https://github.com/pceeb/UCLA_Spring_2019/tree/master/Term_project/Example_scripts) that contains useful scripts that you can incorporate into your project.
