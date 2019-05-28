@@ -16,7 +16,7 @@ Today in discussion, you are going to keep working on this script.
 If you have already all the components of your program. One way to put everything together is  to group chunks of your code into simple building blocks called functions, each of this functions should take some input and return some output.  
 
 I would recommend keeping it simple, and close your code into small functions that perform basic operation. 
-Here is an example in python taken from [Alessina](http://computingskillsforbiologists.com/wp-content/uploads/2019/01/All_code_boxes.pdf), 2019:    
+Here is an example in python taken from [Allessina and Wilmes](http://computingskillsforbiologists.com/wp-content/uploads/2019/01/All_code_boxes.pdf), 2019:    
 ```python
 # Make letter upper case
 dna = dna.upper() 
