@@ -8,7 +8,7 @@ comments: false
 ---
 
 Goals:
-- Finish the first version of your program.  
+- Give feedback to other groups.    
 
 # Discussion Week 10: Peer review
 
