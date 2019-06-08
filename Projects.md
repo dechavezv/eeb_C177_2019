@@ -86,3 +86,34 @@ Your program does not have to be perfect at the time of the presentation.  This 
     * (20 pts) A small test dataset
     * (50 pts) The exact command needed to run this dataset with your program
     * (30 pts) The expected output of running your program using the small dataset.
+
+# Provide Feedback to other projects
+
+You must provide feedback to other people 
+projects as part of your grade for Homework 9. 
+To do this you should do the following:     
+
+1. The first step is to fork the GitHub repository 
+of the group you want evaluate. To fork the aformentioned repository, 
+click the Fork button in the header of the repository.   
+
+![]({{ site.url }}/images/fork.png)
+
+2. Sit back and watch the forking magic.   
+When it’s finished, you’ll be taken to your copy of the repository.    
+
+3. Go ahead and crate a new file (you can calle it "feedback") with the answers of the
+questions from Homework 9.  
+
+![]({{ site.url }}/images/Feedback.png)  
+
+4. You’re ready to send yo ur feedback into the project! 
+This is the final step in producing a fork of someone else’s project, and arguably the most important. If you’ve sugested a change that you feel would benefit that student project, you should definitely consider sharing it.  
+Cilick on **Create pull request**  
+
+![]({{ site.url }}/images/Create_Pull_1.png)  
+
+5. When you’re ready click on **Send pull request**. You’re done! 
+Now is up to the owner of that repository to accept your changes.  
+
+![]({{ site.url }}/images/New_Pull.png)  
